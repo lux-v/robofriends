@@ -1,15 +1,13 @@
 import React from "react";
 import './Card.css';
 
-
-
-const Card = (props) =>{
+const Card = ({name, email, id}) =>{
     return(
         <div className="CardStyle">  
-            <img alt='robots' src ={'https://robohash.org/'+ props.name +'?200x200'}/>
+            <img alt='robots' src ={'https://robohash.org/'+ id +'?200x200'}/>
             <div className="robotDesc">
-                <h2>{props.name}</h2>
-                <p>{props.email}</p>
+                <h2>{name}</h2>
+                <p>{email}</p>
             </div>
         </div>
     );
