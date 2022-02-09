@@ -25,10 +25,14 @@ class App extends Component{
         });
 
         return(
-            <div className="container">
-                <h1>Robofriends</h1>
-                <SearchBox searchChange={this.onSearchChange} />
-                <CardList robots = {filteredRobots} />
+            <div>
+                <div className="headerSection">
+                    <h1>Robofriends</h1>
+                    <SearchBox searchChange={this.onSearchChange} />
+                </div>
+                <div className="cardListSection">
+                    <CardList robots = {filteredRobots} />
+                </div>
             </div>
             
         );

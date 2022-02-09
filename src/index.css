@@ -21,7 +21,7 @@ code {
   flex-wrap: wrap;
 }
 
-.container{
+.cardListSection{
   display: flex;
   align-items: center;
   justify-content: center;
