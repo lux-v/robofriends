@@ -12,8 +12,7 @@ h1{
 
 .cardListSection{
     background-color: white;
-/*    height: calc(100vh - 150px);*/
-    height: 100%;
+    height: calc(100vh - 150px);
     position: relative;
     top: 0;
 }
