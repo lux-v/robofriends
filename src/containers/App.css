@@ -1,0 +1,39 @@
+*{
+    overflow: hidden;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Robotaur 3D';
+    margin: 10px 0 20px 0;
+    
+}
+
+
+.cardListSection{
+    background-color: white;
+/*    height: calc(100vh - 150px);*/
+    height: 100%;
+    position: relative;
+    top: 0;
+}
+
+.headerSection{
+    background-color: black;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    height: 150px;
+}
+
+
+@font-face {
+    font-family: 'Robotaur 3D';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Robotaur 3D'), url('./robotaur3d.woff') format('woff');
+    }
+

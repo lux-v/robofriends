@@ -1,0 +1,25 @@
+.searchBoxSection{
+    padding: 5px;
+}
+
+.searchBox{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    transition: width 0.2s;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Robotaur 3D';
+}
+
+.searchBox:focus{
+    width: 600px;
+}
+
+@font-face {
+    font-family: 'Robotaur 3D';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Robotaur 3D'), url('../containers/robotaur3d.woff') format('woff');
+    }
+
