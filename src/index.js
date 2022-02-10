@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
-import { robots } from './robots.js';
 
 
 ReactDOM.render(
   <React.StrictMode>
-      <App robots = {robots} />
+      <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
