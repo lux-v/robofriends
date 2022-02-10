@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lux-v.github.io/static/css/main.bfc59f56.css",
+    "main.js": "/lux-v.github.io/static/js/main.e73ce8e4.js",
+    "static/js/787.32032a02.chunk.js": "/lux-v.github.io/static/js/787.32032a02.chunk.js",
+    "static/media/robotaur3d.woff": "/lux-v.github.io/static/media/robotaur3d.bfb1f1e79ff6969dc2da.woff",
+    "index.html": "/lux-v.github.io/index.html",
+    "main.bfc59f56.css.map": "/lux-v.github.io/static/css/main.bfc59f56.css.map",
+    "main.e73ce8e4.js.map": "/lux-v.github.io/static/js/main.e73ce8e4.js.map",
+    "787.32032a02.chunk.js.map": "/lux-v.github.io/static/js/787.32032a02.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfc59f56.css",
+    "static/js/main.e73ce8e4.js"
+  ]
+}
